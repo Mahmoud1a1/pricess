@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: 'Cairo';
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+body{
+  
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin:15px;
+
+}
+
+
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#myTable th, #myTable td {
+  text-align: center;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+.buttons{
+  display: flex;
+  
+}
+.BAdd{
+  border-radius: 7px;
+  color: wheat;
+  background-color:cadetblue;
+  font-weight: bold;
+  align-items: right;
+
+  padding: 5px;
+  transition: ease 1s;
+    margin-left: 1000px;
+
+}
+.BAdd:hover{
+  background-color: crimson;
+}
+.BLog{
+  border-radius: 7px;
+  color: wheat;
+  background-color:rgb(50, 72, 73);
+  font-weight: bold;
+  align-items: right;
+  padding: 5px;
+  transition: ease 1s;
+}
+.BLog:hover{
+  background-color: crimson;
+}
+
+
+

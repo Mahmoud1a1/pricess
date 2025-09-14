@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+
+    font-family: 'Cairo';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+  
+  font-weight: bold;
+  
+    align-items: center; 
+    text-align: center;
+  }
+
+  header{
+    display: flex;
+  justify-content: space-between;
+  background-color: darkslategray;
+   
+}
+
+header h2{
+  padding: 0px 100px;
+    color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+.add{
+    padding: 5px 15px;
+    text-align: center;
+    background-color: #123142;
+    border-radius: 10px;
+    color: antiquewhite;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.add:hover{
+  background-color: #3C8DBC;
+  transition: ease 1s;
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+.INPUT_FORM{
+  width: 100%;
+  margin-left: 10PX;
+  margin-bottom: 30PX;
+  position: relative;
+ }
+
+
+
+ .INPUT_FORM INPUT{
+  border-radius: 10px;
+  outline: none;
+  padding: 0PX 5PX;
+  width: 100%;
+  height: 40px;
+
+ }
+
+ .INPUT_FORM label{
+   font-size: 12PX;
+   position: absolute;
+   top: 50%;
+   right: 5px;
+   transform: translateY(-40%);
+   transition: ease 1s;
+   pointer-events: none;
+ }
+
+.INPUT_FORM INPUT:hover~label,
+.INPUT_FORM INPUT:valid~label{
+   top: 14%;
+}
+
+.container{
+  padding: 0px 50px 0px 50px;
+
+}
+
+.h22{
+  border-radius: 20px;
+  padding: 0px 100px 0px 100px;
+  background-color: #123142;
+  color: white;
+    border-bottom: solid crimson;
+    display: inline-block;
+    margin-bottom: 30PX;
+}
+
+.selectt{
+  border-radius: 10px;
+  outline: none;
+  padding: 0PX 5PX;
+  width: 100%;
+  height: 40px;
+}
+.pp{
+  color: crimson;
+}
+
+.popup{
+  width: 400PX;
+  background-color: rgb(47, 116, 175);
+  border-radius: 6PX;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0px 30px 30px;
+  visibility: hidden;
+  transition: transform 0.100s , top 0.100s;
+
+}
+.open-popup{
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1);
+  visibility: visible;
+}
+
+
+.popup img{
+  width: 100%;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+
